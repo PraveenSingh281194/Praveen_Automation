@@ -1,0 +1,11 @@
+DS1460
+
+Activity: Ecosystem
+
+SELECT  [ConnectionReceivedId]
+      ,[ConnectionSentId],[CreatedById],[CreatedDate],[ecosystems_svcs__Account__c],[ecosystems_svcs__acctName__c],[ecosystems_svcs__Contact__c],[ecosystems_svcs__documentType__c],[ecosystems_svcs__extId__c],[ecosystems_svcs__extOwner__c]
+      ,[ecosystems_svcs__lastUpdated__c],[ecosystems_svcs__Open__c],[ecosystems_svcs__Opportunity__c],[ecosystems_svcs__salesPlay__c],[Id],[IsDeleted]
+      ,[LastActivityDate],[LastModifiedById],[LastModifiedDate],[Name],[OwnerId],[SystemModstamp]
+  FROM [Salesforce].[dbo].[ecosystems_svcs__IBC__c]
+  where [ecosystems_svcs__documentType__c]='Business Model Assessment' and [ecosystems_svcs__salesPlay__c]='Customer signed-off'
+  and LastModifiedDate like '2023%'
