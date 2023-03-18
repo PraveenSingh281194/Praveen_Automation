@@ -1,0 +1,19 @@
+{"tracker": {
+  "SPUrl" : "https://assetmark-my.sharepoint.com",
+  "username" :"Praveen.Singh@assetmark.com",
+  "password" :"Welcome208435!",
+  "site" :"https://assetmark-my.sharepoint.com/:x:/r/personal/anuj_kogata_assetmark_com1/Documents/QA%20Leave%20Tracker/QA%20Leave%20Tracker%202023.xlsx",
+  "my_headers" : {
+  "accept" : "application/json",
+   "odata":"verbose",
+  "content-type" : "application/json",
+  "X-RequestForceAuthentication" : "true"
+                },
+  "tracker_path":"C:\\Users\\Praveen\\Downloads\\QA_Leave_Tracker_2023.xlsx",
+  "month1":"Feb",
+  "month2": "March",
+  "fiscal_year":"2023"
+
+
+}
+}
