@@ -1,0 +1,4 @@
+[2023-09-13 16:32:30,395 ] 160 - INFO - NumExpr defaulting to 8 threads.
+[2023-09-13 16:33:17,522 ] 53 - INFO - Report generated in reports folder.
+[2023-09-13 16:34:37,523 ] 28 - INFO - Email sent to reciepients successfully.
+[2023-09-13 16:34:37,532 ] 17 - INFO - Data load part completed, please proceed with validation

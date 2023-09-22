@@ -1,0 +1,2 @@
+[2023-09-11 15:08:04,670 ] 53 - INFO - Report generated in reports folder.
+[2023-09-11 15:08:06,303 ] 59 - INFO - error occured : (-2147352567, 'Exception occurred.', (4096, 'Microsoft Outlook', 'Outlook does not recognize one or more names. ', None, 0, -2147467259), None)
