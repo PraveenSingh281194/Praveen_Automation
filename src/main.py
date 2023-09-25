@@ -5,11 +5,11 @@ from UDF.logger import logging
 if __name__ == "__main__":
     start_time=time.time()
     print('!!!Welcome to Py_utilities!!!')
-    user_input=input("""Please select the type of operation you would like to execute, 
-    '1' for data load
-    '2' for Validation
-    Enter the Sequence : """)
-    
+    # user_input=input("""Please select the type of operation you would like to execute, 
+    # '1' for data load
+    # '2' for Validation
+    # Enter the Sequence : """)
+    user_input='1'
     if user_input=='1':
         try:
             print('Code execution starts')

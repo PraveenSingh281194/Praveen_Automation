@@ -12,15 +12,16 @@ welcome_message = """
 """
 print(welcome_message)
 
-type_of_validation  = input("""********* Please Select the Type of Validation that you want to do ******
-1. File to File 
-2. File to DB
-3. DB to DB
-4. dataload
-5. table_drop
-6. ssms
+# type_of_validation  = input("""********* Please Select the Type of Validation that you want to do ******
+# 1. File to File 
+# 2. File to DB
+# 3. DB to DB
+# 4. dataload
+# 5. table_drop
+# 6. ssms
 
-Enter the Sequence : """)
+# Enter the Sequence : """)
+type_of_validation=6
 
 def __validation(type_of_validation):
 

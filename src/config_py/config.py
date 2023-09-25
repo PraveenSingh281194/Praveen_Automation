@@ -18,7 +18,8 @@ with open(r'src\config_json\input.json','r') as context:
     # either above way or we can hardcode db_choice input here 
     #db_choice=='1' # we can also also keep this as a parameter in json file.
     
-    db_choice=properties["db"]["db_type"]  # reading from json directly
+    #db_choice=properties["db"]["db_type"]  # reading from json directly
+    db_choice='2'
     if db_choice=='1':
         db_type='mysql'
     elif db_choice=='2':
