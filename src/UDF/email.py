@@ -1,8 +1,8 @@
 import win32com.client
 from UDF.logger import logging
-def email_Send(to_reciepient,cc_reciepient=[],file=[],n=1):
+def email_Send(to_reciepient,cc_reciepient=[],files=[],n=1):
     attach=[]
-    for i in file:
+    for file in files:
         #file=input('Enter the file path you want to attach : ')
         attach.append(file)
     ol=win32com.client.Dispatch("outlook.application")
