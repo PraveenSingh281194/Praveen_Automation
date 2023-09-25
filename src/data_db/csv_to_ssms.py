@@ -60,7 +60,7 @@ def csv_to_ssms_db():
             df_diff = pd.concat([df_file,df_table])
             df_diff.drop_duplicates(keep=False,ignore_index=True,inplace=True)
             report_gen(df_diff,'src//reports//data_difference.csv',file_type='csv')
-            email_Send(to_reciepient=['praveen.singh2@incedoinc.com'],files=[r'C:\ProgramData\Jenkins\.jenkins\workspace\ETL_FW_Demo\src\reports\data_difference.csv'])
+            #email_Send(to_reciepient=['praveen.singh2@incedoinc.com'],files=[r'C:\ProgramData\Jenkins\.jenkins\workspace\ETL_FW_Demo\src\reports\data_difference.csv'])
             print('mismatches exists in the datasets') if len(df_diff.index)>0 else print('No mismatches in 2 datasets')
             logging.info('Data inserted and Validaed succesfully.')
         else:
