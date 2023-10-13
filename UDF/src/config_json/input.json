@@ -1,0 +1,28 @@
+{
+    "db":{
+        "db_type":"2",
+        "mysql":
+            {"credentials":{
+                "username":"root",
+                "password":"MjgxMTk0I3Bz"},
+            "host":"Localhost",
+            "db_name":"test_db",
+            "db_type":"mysql",
+            "port":"3306",
+            "server":""
+            },
+         "ssms":
+            {"credentials":{
+                "username":"sa",
+                "password":"SW5jZWRvQDEyMzQ="},
+            "server":"RzEtRlExUU0xMy1MXFNRTEVYUFJFU1M=",
+            "db_name":"test_db",
+            "db_type":"ssms",
+            "host":"",
+            "port":""
+            }
+         }
+         
+}
+    
+    

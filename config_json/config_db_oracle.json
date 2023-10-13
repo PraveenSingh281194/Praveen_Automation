@@ -1,0 +1,17 @@
+{
+    "db":{
+        "oracle":
+                {"qa":
+                    {"credentials":{
+                        "username":"xxxxx",
+                        "password":"xxxxx"},
+                    "host":"exag0208-scan1",
+                    "db_name":"xxxxx",
+                    "dsn":"ZXhhZzAyMDgtc2NhbjE6MTUyMS9hYW9xYTFfcndzdmMucWEucG5jaW50Lm5ldA==",
+                    "port":"1521",
+                    "server":""
+                    }
+                }
+            } 
+}
+  
